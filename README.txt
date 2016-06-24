@@ -1,0 +1,5 @@
+Read Only by Desiree Desario
+desireedesario.com | @desireedesario
+A description of design baby calculator
+
+Desario_Desiree_Designed_Calculator_WorkSample: This external style sheet is a designed addition calculator using HTML, CSS, and jQuery. -	The HTML of the calculator is styled in CSS -	The viewers name is captured into an input field, where “Hello, What’s you name” will be overwritten with “Hello,” + whatever the viewer inputs + “!”-	A hover action is created so that whenever the user positions the mouse cursor over a photo/number, the background will change from blue to yellow, and then, when the cursor is off of the photo/number, it will change back into its original state. -	When a number/photo is clicked by the viewer, the thumbnail will replace the photo under “you picked” at the bottom left side of the calculator. -	On the bottom right, the number clicked will be added and updated to the total under, “your total is now”-	A reset buttong is displayed, that when clicked it will set the total back to 0 (in the JavaScript under variable 0). 

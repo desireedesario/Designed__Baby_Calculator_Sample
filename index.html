@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Baby Calculator</title>
+    
+	<!-- my CSS stylesheet -->	
+	<link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+	<body cz-shortcut-listen="true">
+	
+<div id="container">
+	<div id="header">
+		<h1><u>Izzy is Growing Up!</u></h1>
+		<h1 id="hellotext">Hello, What's your name?</h1>
+ 		<input id="yourname" type="text" name="fname" placeholder="name here">
+ 		<button id="btn_yourname">submit your name</button>
+	</div>
+	<div id="gallery">
+		<div class="thumbnail" style="background-color: rgb(8, 209, 185);">
+			<img class="thumb_img" src="img/izzy01.jpg" photo-id="izzy01" num-value="1">
+			<p class="value_text">The number 1</p>
+		</div>
+		<div class="thumbnail" style="background-color: rgb(8, 209, 185);">
+			<img class="thumb_img" src="img/izzy02.jpg" photo-id="izzy02" num-value="2">
+			<p class="value_text">The number 2</p>
+		</div>
+		<div class="thumbnail" style="background-color: rgb(8, 209, 185);">
+			<img class="thumb_img" src="img/izzy03.jpg" photo-id="izzy03" num-value="3">
+			<p class="value_text">The number 3</p>
+		</div>
+		<div class="thumbnail">
+			<img class="thumb_img" src="img/izzy04.jpg" photo-id="izzy04" num-value="4">
+			<p class="value_text">The number 4</p>
+		</div>
+		<div class="thumbnail">
+			<img class="thumb_img" src="img/izzy05.jpg" photo-id="izzy05" num-value="5">
+			<p class="value_text">The number 5</p>
+		</div>
+		<div class="thumbnail">
+			<img class="thumb_img" src="img/izzy06.jpg" photo-id="izzy06" num-value="6">
+			<p class="value_text">The number 6</p>
+		</div>
+		<div class="thumbnail">
+			<img class="thumb_img" src="img/izzy07.jpg" photo-id="izzy07" num-value="7">
+			<p class="value_text">The number 7</p>
+		</div>
+		<div class="thumbnail">
+			<img class="thumb_img" src="img/izzy08.jpg" photo-id="izzy08" num-value="8">
+			<p class="value_text">The number 8</p>
+		</div>
+		<div class="thumbnail">
+			<img class="thumb_img" src="img/izzy09.jpg" photo-id="izzy09" num-value="9">
+			<p class="value_text">The number 9</p>
+		</div>
+	</div>
+	<div id="results_box">
+		<div id="display_num">
+			<h3 class="number_text">You picked:</h3>
+			<img id="display_img" src="img/izzy00.jpg">
+		</div>
+		<div id="total_box">
+			<h3 class="number_text">Your total is now:</h3>
+			<p id="total">0</p>
+		</div>
+	</div>
+    <div id="reset_box">
+         <center><button type="reset" value="Reset" id="reset">Reset</button></center>
+    </div>
+
+</div> <!-- end container div -->
+	
+<!-- JAVASCRIPT -->
+	<script src="js/jquery.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
